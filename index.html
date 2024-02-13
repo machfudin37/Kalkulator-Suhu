@@ -10,36 +10,47 @@
 </head>
 
 <body>
-    <main class="container">
+    <div class="container">
         <div class="nama-aplikasi">Kalkulator Suhu</div>
         <div class="card">
             <div class="nav-bar">
-                <button class="btn-nav">
-                    Masukan Suhu
+                <button class="btn-nav active" id="btn-input-suhu" onclick="showNav('input-suhu','btn-input-suhu')">
+                    Input Suhu
                 </button>
-                <button class="btn-nav">
+                <button class="btn-nav" id="btn-kalkulasi" onclick="showNav('kalkulasi','btn-kalkulasi')">
                     Kalkulasi
                 </button>
-                <button class="btn-nav">
+                <button class="btn-nav" id="btn-rumus-konversi" onclick="showNav('rumus-konversi','btn-rumus-konversi')">
                     Rumus Konversi
                 </button>
             </div>
-            <div id="form">
-                <div id="form-group">
-                    <label for="celcius" class="label-input">Celcius:</label>
-                    <input class="text-input" type="number" id="celcius" placeholder="Masukan Suhu Celcius">
+            <div class="form nav-content active" id="input-suhu">
+                <div class="form-group">
+                    <label class="form-label" for="celcius">
+                        <input class="form-input" type="number" id="celcius" placeholder="Masukan Suhu Celcius">
+                        <span class="form-span">Celsius</span>
+                    </label>
                 </div>
-                <div id="form-group">
-                    <label for="celcius" class="label-input">Fahrenheit:</label>
-                    <input class="text-input" type="number" id="celcius" placeholder="Masukan Suhu Celcius">
+                <div class="form-group">
+                    <label class="form-label" for="fahrenheit">
+                        <input class="form-input" type="number" id="fahrenheit" placeholder="Masukan Suhu Celcius">
+                        <span class="form-span">Fahrenheit</span>
+                    </label>
                 </div>
                 <div class="btn-group">
-                    <button>Konversi</button>
-                    <button>Reset</button>
+                    <button type="button" class="btn-green">Konversi</button>
+                    <button type="button" class="btn-grey">Reset</button>
+                    <button type="button" class="btn-blue">Reverse</button>
+                </div>
+            </div>
+            <div class="form nav-content" id="kalkulasi">
+                <div class="form-group">
+                    <label class="form-label" for="kalkulasi">Kalkulasi :</label>
+                       <textarea class="form-input-disable" name="kalkulasi" id="" cols="5" rows="5" disabled></textarea>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 </body>
 
 </html>
