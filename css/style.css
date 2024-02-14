@@ -51,62 +51,61 @@ color: #0065fd;
 }
 
 .form {
-padding: 30px 0px 0px 10px;
+padding: 10px 0px 10px 10px;
 display: flex;
 flex-direction: column;
 }
 
 .form-label {
-margin-bottom: 15px;
-position: relative;
-border-bottom: 1px solid #ddd;
 font-size: 20px;
 font-family: 'Times New Roman', Times, serif;
 }
-
+#petunjuk{
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 10px;
+}
 .form-input {
-width: 100%;
-padding: 10px 0px;
-margin-top: 20px;
-border: none;
-outline: none;
+width: 500px;
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 8px;
+border: 1px solid #ccc;
+background-color:#ccc ;
 font-size: 20px;
 font-family: 'Times New Roman', Times, serif;
 }
-
-.form-input::placeholder {
-opacity: 0;
-}
-
-.form-span {
-position: absolute;
-top: 0;
-left: 0;
-transform: translateY(30px);
-font-size: 0.825em;
-transition-duration: 300ms;
+.form-input:active{
+border-color: #0065fd;
 }
 .form-group {
 display: flex;
 flex-direction: column;
 padding-bottom: 30px;
 }
-.form-group>.form-input-disable{
-padding-bottom: 30px;
+
+.form-group.kalkulasi {
+justify-content: center;
 }
 
-.form-input-disable{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 20px;
-    color: #555b63;
+.kalkulasi {
+justify-content: center;
+font-family: 'Times New Roman', Times, serif;
+flex-direction: row;
 background-color: #ccc;
 border-radius: 8px;
-width: 500px;
-height: 100px;
 border: 1px solid #ccc;
-outline: none;
+width: 500px;
+height: 30px;
+font-size: 18px;
 padding: 10px;
+cursor: text;
+outline: none;
+margin: auto;
+}
+.kalkulasi:active {
+outline: none;
 }
 
 .btn-group {
@@ -177,5 +176,62 @@ display: none;
 display: block;
 }
 .btn-nav.active{
-    border-bottom: 3px solid #0065fd;
+border-bottom: 3px solid #0065fd;
+}
+#judul{
+margin-top: 10px;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+}
+#isi{
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+padding: 6px;
+margin-bottom: 10px;
+}
+#rumus1{
+font-family: 'Times New Roman', Times, serif;
+flex-direction: row;
+background-color: #ccc;
+border-radius: 8px;
+border-color: #555b63;
+width: 500px;
+height: 30px;
+font-size: 18px;
+padding: 10px;
+cursor: text;
+}
+#atau {
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+margin: 10px;
+}
+#rumus2{
+font-family: 'Times New Roman', Times, serif;
+flex-direction: row;
+background-color: #ccc;
+border-radius: 8px;
+border-color: #555b63;
+width: 500px;
+height: 30px;
+font-size: 18px;
+padding: 10px;
+cursor: text;
+}
+.form-input-readonly.kalkulasi{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+color: #555b63;
+align-content: center;
+background-color: #ccc;
+border-radius: 8px;
+width: 500px;
+height: 100px;
+border: 1px solid #ccc;
+outline: none;
+padding: 10px;
 }
