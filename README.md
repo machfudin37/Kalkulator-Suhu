@@ -2,7 +2,7 @@
 
 ![User Interface](https://github.com/machfudin37/kalkulator-suhu/blob/main/images/user-interface.jpg)
 
-Kalkulator Suhu merupakan aplikasi yang digunakan untuk mengubah 2 jenis suhu yaitu Celcius dan Fahreinhert.
+Kalkulator Suhu merupakan aplikasi yang digunakan untuk menghitung 2 jenis suhu yaitu Celcius dan Fahreinhert.
 
 ------------
 
