@@ -1,6 +1,6 @@
 <h1 align="center">Selamat datang di Kalkulator Suhu! 👋</h1>
 
-![User Interface](https://github.com/machfudin37/kalkulator-suhu/blob/main/images/user-interface.JPG?raw=true)
+![User Interface](https://github.com/machfudin37/kalkulator-suhu/blob/main/images/user-interface.jpg)
 
 Kalkulator Suhu merupakan aplikasi yang digunakan untuk mengubah 2 jenis suhu yaitu Celcius dan Fahreinhert.
 
