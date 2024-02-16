@@ -84,11 +84,6 @@ function Tukar() {
   celsiusLabel.innerText = fahrenheitLabel.innerText;
   fahrenheitLabel.innerText = tempLabel;
 
-  // Tukar Placeholder
-  var celsiusPlaceholder = inputCelsius.placeholder;
-  var fahrenheitPlaceholder = inputFahrenheit.placeholder;
-  inputCelsius.placeholder = fahrenheitPlaceholder;
-  inputFahrenheit.placeholder = celsiusPlaceholder;
 
   // Tukar nilai input
   var tempValue = celsiusInput.value;

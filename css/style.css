@@ -177,6 +177,7 @@ display: block;
 }
 .btn-nav.active{
 border-bottom: 3px solid #0065fd;
+color: #0065fd;
 }
 #judul{
 margin-top: 10px;
