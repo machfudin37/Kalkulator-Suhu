@@ -8,13 +8,13 @@ Kalkulator Suhu merupakan aplikasi yang digunakan untuk menghitung 2 jenis suhu 
 
 ## 🧑 Author
 
-- 👤 <a href="https://github.com/machfudin37"> **Machfudin(19200641)**</a>
+- 👤 <a href="https://github.com/machfudin37"> **Machfudin**</a>
 
 ------------
 
 ## 🔗 Link & Demo 
 
-With Github Pages:  [machfudin37.github.io/kalkulator-suhu](https://machfudin37.github.io/kalkulator-suhu/) |
+With Github Pages:  [kalkulator-suhu](https://machfudin37.github.io/kalkulator-suhu/) |
 
 
 ------------
